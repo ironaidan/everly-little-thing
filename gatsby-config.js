@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Everly Little Thing`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Everly`,
+      summary: `who lives in Los Angeles and is probably a super hero.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `An important blog about unimportant stuff.`,
+    siteUrl: `https://everlylittlething.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `iron_aidan`,
     },
   },
   plugins: [
