@@ -11,8 +11,12 @@ type DataProps = {
   }
 }
 
-const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
-  <Layout>
+const UsingTypescript: React.FC<PageProps<DataProps>> = ({
+  data,
+  path,
+  location,
+}) => (
+  <Layout title="Using TypeScript" location={location}>
     <Seo title="Using TypeScript" />
     <h1>Gatsby supports TypeScript by default!</h1>
     <p>
@@ -22,7 +26,7 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
     </p>
     <p>
       For type checking you'll want to install <em>typescript</em> via npm and
-      run <em>tsc --init</em> to create a <em>.tsconfig</em> file.
+      run <em>tsc --init</em> to create a <em>tsconfig</em> file.
     </p>
     <p>
       You're currently on the page "{path}" which was built on{" "}
